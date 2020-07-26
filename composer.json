@@ -1,0 +1,27 @@
+{
+    "name": "jkbennemann/laravel-4-social-oauth",
+    "type": "library",
+    "description": "OAuth Service Provider for Laravel 4",
+    "keywords": ["OAuth", "SocialConnect", "laravel", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakob Bennemann",
+            "email": "jkb.bennemann@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "socialconnect/http-client": "^1.0",
+        "jkbennemann/php-oauth-library": "^1.0.0"
+    },
+    "require-dev": {
+        "illuminate/support": "~4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Jkbennemann\\OAuth\\": "src/"
+        }
+    }
+}
